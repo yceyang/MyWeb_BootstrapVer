@@ -4,8 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Welcome to Yang's Site!! (bootstrap version)</title>
+
+    <title>Welcome to Y.C Yang's Site!! (bootstrap version)</title>
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -19,14 +22,158 @@
     <![endif]-->
   </head>
   <body>
-    
-    <!-- 導覽列 -->
-    
-    <!-- Who am I -->
-    
-    <!-- My Work -->
-    
-    <!-- Contact me -->
+    <header>
+      <div class="menu">
+        <ul class="nav nav-pills col-lg-9 col-md-9">
+          <li class="nav-item">
+            <a class="nav-link active" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="icon col-lg-2 col-md-2">
+      <!-- fb / github -->
+        <a href="https://www.facebook.com/yceyoung" target="_blank">
+          <i class="devicon-facebook-plain"></i>
+        </a>
+        <a href="https://github.com/yceyang" target="_blank">
+          <i class="devicon-github-plain"></i>
+        </a>
+      </div>
+
+      <button type="button col-lg-1 col-md-1" class="menu-button">
+        <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+        <input type="checkbox" class="menu-button-checkbox">
+      </button>
+    </header>
+
+    <div class="container">
+      <!-- About Me -->
+      <div id="about" class="row">
+        <div class="col-lg-5 col-md-5">
+          <img src="img/self.jpg" class="rounded-circle">
+        </div>
+        <div class="col-lg-7 col-md-7">
+          <h1>Yi-Cheng, Yang</h1>
+          <h3>Wanna be a better person.</h3>
+          <table class="table table-striped">
+            <tbody>
+              <tr>
+                <th scope="row">出生於</th>
+                <td>1991</td>
+              </tr>
+              <tr>
+                <th scope="row">工作經驗</th>
+                <td> > 2年, AOI, MIS</td>
+              </tr>
+              <tr>
+                <th scope="row">興趣</th>
+                <td>攝影</td>
+              </tr>
+              <tr>
+                <th scope="row">學習經歷</th>
+                <td>大航道計畫 2017 - present</td>
+              </tr>
+              <tr scope="row">
+                <th></th>
+                <td>元智大學 2010 - 2014</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      
+      <!-- Portfolio -->
+      <div id="portfolio" class="row">
+        <div class="col-lg-12">
+          <h1>Portfolio</h1>
+        </div>
+        <div class="card-deck">
+          <div class="card-cover">
+            <div class="card col-lg-4 col-md-6">
+              <img class="card-img-top" src="img/1.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+              </div>
+            </div>
+          </div>
+          <div class="card col-lg-4 col-md-6">
+            <img class="card-img-top" src="img/2.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card col-lg-4 col-md-12">
+            <img class="card-img-top" src="img/3.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card col-lg-4 col-md-6">
+            <img class="card-img-top" src="img/4.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card col-lg-4 col-md-6">
+            <img class="card-img-top" src="img/5.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card col-lg-4 col-md-6">
+            <img class="card-img-top" src="img/6.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact -->
+      <div id="contact" class="row">
+        <div class="col-lg-12"><h1>Contact</h1></div>
+        <form>
+          <div class="form-row">
+            <div class="form-group col-lg-12">
+              <label for="name" class="col-form-label">Name</label>
+              <input type="text" class="form-control" id="inputName" placeholder="Name">
+            </div>
+            <div class="form-group col-lg-12">
+              <label for="email" class="col-form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
+            <div class="form-group col-lg-12">
+              <label for="message" class="col-form-label">Message</label>
+              <input type="text" class="form-control" id="inputMsg" placeholder="Message">
+            </div>
+            <div class="col-lg-12">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <footer></footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
